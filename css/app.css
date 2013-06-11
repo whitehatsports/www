@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'SpiegelCdOTBold';
+    src: url('../fonts/spiegelcdot-bold-webfont.eot');
+    src: url('../fonts/spiegelcdot-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/spiegelcdot-bold-webfont.woff') format('woff'),
+    url('../fonts/spiegelcdot-bold-webfont.ttf') format('truetype'),
+    url('../fonts/spiegelcdot-bold-webfont.svg#spiegelcdotbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.row { max-width: 990px; }
+
+.main-header {
+    margin-top: 34px; 
+    margin-bottom: 21px; 
+    background: url(/img/hero-990.jpg) no-repeat center top  #FFF;
+    background-size: 990px;
+    height: 660px; 
+}
+
+.main-header h2 { line-height: 1em; margin-top: 12px; }
+
+.main-header .branding {
+    position: relative;
+    top: 60px; 
+    left: 50px; 
+    width: 476px; 
+
+}
+
+.main-header .branding img {
+    opacity: 0.76;
+}
+
+.main-header .branding .tagline {
+    font-family: SpiegelCdOTBold; 
+    font-weight: normal; 
+    color: rgba(0,0,0,0.73);
+    font-size: 43px; 
+    letter-spacing: 9px;
+    position: relative;
+    left: 13px; 
+}
+
+.main-header .branding .soon { 
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-size: 21px; 
+        color: rgba(0,0,0,0.73);
+}
+
+.copyright { color: #4d4d4d; }
