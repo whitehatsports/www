@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'SpiegelCdOTBold';
-    src: url('../fonts/spiegelcdot-bold-webfont.eot');
-    src: url('../fonts/spiegelcdot-bold-webfont.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/spiegelcdot-bold-webfont.woff') format('woff'),
-    url('../fonts/spiegelcdot-bold-webfont.ttf') format('truetype'),
-    url('../fonts/spiegelcdot-bold-webfont.svg#spiegelcdotbold') format('svg');
+    src: url('/fonts/spiegelcdot-bold-webfont.eot');
+    src: url('/fonts/spiegelcdot-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/spiegelcdot-bold-webfont.woff') format('woff'),
+    url('/fonts/spiegelcdot-bold-webfont.ttf') format('truetype'),
+    url('/fonts/spiegelcdot-bold-webfont.svg#spiegelcdotbold') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -15,12 +15,12 @@
 .main-header {
     margin-top: 34px; 
     margin-bottom: 21px; 
-    background: url(../img/hero-990.jpg) no-repeat center top  #FFF;
+    background: url(/img/hero-990.jpg) no-repeat center top  #FFF;
     background-size: 990px;
     height: 660px; 
 }
 
-.main-header h2 { line-height: 1em; margin-top: 12px; }
+.main-header h2 { line-height: .7em; margin-top: 12px; }
 
 .main-header .branding {
     position: relative;
