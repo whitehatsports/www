@@ -2,16 +2,30 @@
 <head>
 <title>Test Page </title>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="test2.js"></script>
+
 </head>
 
+<body>
+
+<a href="#" class="add_to_cart">add product</a>
+
+// check the status code, but not the response, or just send it in clojure
+<form id="addProduct" method="GET" 
+      action="http://nfdn.whitehatsports.com/scpt/add_shoppingcart_item.php">
+<input type="hidden" name="product_id" value="99010" />
+<input type="submit" />
+</form>
 
 
-
-<iframe src="http://nfdn.whitehatsports.com/" 
+<iframe src="http://nfdn.whitehatsports.com/login.php" 
         width="0" 
         height="0" 
         tabindex="-1" 
         title="empty" 
-        style="display: none;">
+        style="display: none;" />
+
+</body>
 
 </html>
+

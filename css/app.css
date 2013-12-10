@@ -1,32 +1,41 @@
-@font-face {
-    font-family: 'SpiegelCdOTBold';
-    src: url('/fonts/spiegelcdot-bold-webfont.eot');
-    src: url('/fonts/spiegelcdot-bold-webfont.eot?#iefix') format('embedded-opentype'),
-    url('/fonts/spiegelcdot-bold-webfont.woff') format('woff'),
-    url('/fonts/spiegelcdot-bold-webfont.ttf') format('truetype'),
-    url('/fonts/spiegelcdot-bold-webfont.svg#spiegelcdotbold') format('svg');
-    font-weight: normal;
-    font-style: normal;
+
+
+html, body, #wrapper{ height: 100%; }
+bodyX > #wrapper{height: auto; min-height: 100%; width: auto; min-width: 100%;}
+
+#wrapperX { border: 0px solid red; }
+
+body {
+    background: url("../img/hero-1440.jpg") no-repeat center top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-widthX: 100%;
+    heightX: cover;
 }
 
-
-.row { max-width: 990px; }
+.row { max-widthX: 990px; max-width: 100%; }
 
 .main-header {
-    margin-top: 34px; 
+    margin: auto;
+    margin-top: 0px; 
     margin-bottom: 21px; 
-    background: url(/img/hero-990.jpg) no-repeat center top  #FFF;
-    background-size: 990px;
-    height: 660px; 
+    backgroundX: url(/img/hero-990.jpg) no-repeat center top  #FFF;
+    background-sizeX: 990px;
+    heightX: cover; 
+    border: 0px solid red;
 }
 
-.main-header h2 { line-height: .7em; margin-top: 12px; }
+.main-header h2 { line-height: .7em; margin-top: 12px; padding-top: 0; }
 
 .main-header .branding {
     position: relative;
-    top: 60px; 
-    left: 50px; 
-    width: 476px; 
+    top: 40px; 
+    left: 30px; 
+    widthX: 476px; 
+    border: 0px solid red;
+    floatX: left;
 
 }
 
@@ -41,7 +50,7 @@
     font-size: 43px; 
     letter-spacing: 9px;
     position: relative;
-    left: 13px; 
+    left: 7px; 
 }
 
 .main-header .branding .soon { 
@@ -50,4 +59,67 @@
         color: rgba(0,0,0,0.73);
 }
 
-.copyright { color: #4d4d4d; }
+footer > div {
+    vertical-align: middle; 
+    padding: .4em; 
+}
+
+.copyright { 
+    colorX: #4d4d4d; 
+    color: #FFF; 
+    margin: auto; 
+    border: 0px solid green; 
+    background-color: rgba(0,0,0,0.21);
+    padding: .2em;
+
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    height: 1.8em;
+    width: 100%;
+    vertical-align: middle;
+    border: 0px solid yellow;
+    background-colorX: rgba(0,0,0,0.21);
+
+}
+
+.social {
+    padding-top: 2em; 
+    border: 0px solid red;
+}
+
+#invite {
+    padding-top: 55px; 
+    text-alignX: center;
+    border: 0px solid red;
+
+}
+
+.invite label {
+    font-sizeX: 1.0rem;
+    font-weight: 700;
+    padding-left: 5px;
+    text-alignX: center;
+    border: 0px solid red;
+}
+
+.mybox {
+    border: 0px solid green;
+}
+
+#invite-controls {
+    float: left;
+    border: 0px solid green;
+    width: 476px;  
+    text-align: center;
+}
+
+#bitcoin-badge {
+    padding-topX: 21px; 
+    float: left; 
+    margin-top: -10px;
+    margin-left: -21px;
+    padding-leftX: 13px;
+}
